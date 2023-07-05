@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Rubenz – Creative Minimal AJAX Portfolio Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i%7CMaterial+Icons"/>
+    <link rel="stylesheet" href="css/vendor.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- ICONS-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/content/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="img/content/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/content/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/content/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/content/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="img/content/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="img/content/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="img/content/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/content/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="img/content/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/content/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="img/content/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/content/favicon-16x16.png"/>
+    <link rel="manifest" href="img/content/manifest.json"/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage" content="img/content/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" type="image/x-icon" href="img/content/favicon.ico"/>
+  </head>
+  <body data-barba="wrapper">
+    <!-- Loading Spinner-->
+    <svg class="spinner js-spinner d-lg-none d-block" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg>
+    <!-- - Loading Spinner-->
+    <!-- Cursor follower-->
+    <div class="cursor" id="js-cursor">
+      <div class="cursor__follower">
+        <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle id="inner" cx="50" cy="50" r="40"></circle>
+          <circle id="outter" cx="50" cy="50" r="40"></circle>
+        </svg>
+      </div>
+    </div>
+    <!-- - Cursor follower-->
+    <!-- Project hover backgrounds-->
+    <div class="project-backgrounds">
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/bg-1.jpg" data-background-for="1"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/bg-2.jpg" data-background-for="2"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/bg-3.jpg" data-background-for="3"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/bg-4.jpg" data-background-for="4"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/bg-5.jpg" data-background-for="5"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/bg-6.jpg" data-background-for="6"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/bg-7.jpg" data-background-for="7"></div>
+      <div class="project-backgrounds__overlay overlay overlay_dark"></div>
+    </div>
+    <!-- - Project hover backgrounds-->
+    <!-- PAGE PRELOADER -->
+    <div class="preloader">
+      <div class="preloader__curtain bg-dark-2"></div>
+    </div>
+    <!-- - PAGE PRELOADER -->
+    <!-- PAGE HEADER -->
+    <header class="header container-fluid">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-auto header__col-left"><a class="logo" href="homepage-slider-1.html">
+            <div class="logo__text">Rubenz</div></a>
+        </div>
+        <div class="col-auto header__col-right d-none d-lg-block">
+          <ul class="menu">
+            <li class="menu-item-has-children"><a href="#">Homepages</a>
+              <ul class="sub-menu">
+                <li><a href="homepage-slider-1.html">Fullscreen Slider 001</a>
+                </li>
+                <li><a href="homepage-slider-2.html">Fullscreen Slider 002</a>
+                </li>
+                <li><a href="homepage-slider-3.html">Fullscreen Slider 003</a>
+                </li>
+                <li><a href="homepage-slider-4.html">Fullscreen Slider 004</a>
+                </li>
+                <li><a href="homepage-portfolio-grid-1.html">Portfolio Grid</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item-has-children"><a href="#">Portfolio</a>
+              <ul class="sub-menu">
+                <li><a href="project-1.html">Arrigo HTML Template</a>
+                </li>
+                <li><a href="project-2.html">Interior Design App</a>
+                </li>
+                <li><a href="project-3.html">The Crows Show</a>
+                </li>
+                <li><a href="project-4.html">Enchanted Pond Side</a>
+                </li>
+                <li><a href="project-5.html">Smart Home Sound</a>
+                </li>
+                <li><a href="project-6.html">Cassio Luxury Apartment</a>
+                </li>
+                <li><a href="project-7.html">The Underground</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="services.html">Services</a>
+            </li>
+            <li><a href="about.html">About</a>
+            </li>
+            <li><a href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-auto header__col-right d-lg-none">
+          <div class="header__burger" id="js-burger">
+            <div class="header__burger-line"></div>
+            <div class="header__burger-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__wrapper-overlay-menu">
+        <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
+        <div class="header__wrapper-menu">
+          <ul class="menu-overlay js-menu-overlay">
+            <li class="menu-item-has-children"><a href="#">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">Homepages</span></div></a>
+              <ul class="sub-menu">
+                <li><a href="homepage-slider-1.html" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Fullscreen Slider 001</span></div></a>
+                </li>
+                <li><a href="homepage-slider-2.html" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Fullscreen Slider 002</span></div></a>
+                </li>
+                <li><a href="homepage-slider-3.html" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Fullscreen Slider 003</span></div></a>
+                </li>
+                <li><a href="homepage-slider-4.html" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Fullscreen Slider 004</span></div></a>
+                </li>
+                <li><a href="homepage-portfolio-grid-1.html" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio Grid</span></div></a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item-has-children"><a href="#">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio</span></div></a>
+              <ul class="sub-menu">
+                <li><a href="project-1.html" data-post-id="1" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Arrigo HTML Template</span></div></a>
+                </li>
+                <li><a href="project-2.html" data-post-id="2" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Interior Design App</span></div></a>
+                </li>
+                <li><a href="project-3.html" data-post-id="3" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">The Crows Show</span></div></a>
+                </li>
+                <li><a href="project-4.html" data-post-id="4" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Enchanted Pond Side</span></div></a>
+                </li>
+                <li><a href="project-5.html" data-post-id="5" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Smart Home Sound</span></div></a>
+                </li>
+                <li><a href="project-6.html" data-post-id="6" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Cassio Luxury Apartment</span></div></a>
+                </li>
+                <li><a href="project-7.html" data-post-id="7" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">The Underground</span></div></a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="services.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">Services</span></div></a>
+            </li>
+            <li><a href="about.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">About</span></div></a>
+            </li>
+            <li><a href="contacts.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">Contacts</span></div></a>
+            </li>
+          </ul>
+        </div>
+        <!-- - menu -->
+      </div>
+    </header>
+    <!-- - PAGE HEADER -->
+    <!-- PAGE MAIN-->
+    <main class="page-wrapper bg-blue-grey" id="js-smooth-scroll" data-barba="container" data-barba-namespace="light">
+      <!-- section MASTHEAD -->
+      <section class="section section-masthead section_pt section_pb" data-os-animation="data-os-animation">
+        <div class="container-fluid">
+          <header class="row section-masthead__header">
+            <div class="col">
+              <h1 class="split-chars">Blog</h1>
+              <div class="section__headline"></div>
+            </div>
+          </header>
+        </div>
+      </section>
+      <!-- - section MASTHEAD -->
+      <!-- section BLOG -->
+      <section class="section section-blog bg-light-grey section_pt section_pb">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-8">
+              <div class="section-blog__wrapper-post">
+                <article class="post post-preview">
+                  <div class="post-preview__media"><a href="blog-post.html"><img src="img/assets/sectionBlog/img-1.jpg" alt=""/></a></div>
+                  <div class="post-preview__header">
+                    <h2><a href="blog-post.html">Enlightenment Is Not Just One State</a></h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 post-preview__wrapper-meta">
+                      <div class="post-preview__meta post-preview__date"><a href="#">04 Jun 2019</a></div>
+                      <div class="post-preview__meta">
+                        <ul class="post-preview__categories">
+                          <li><a href="#">Design, </a></li>
+                          <li><a href="#">Travel, </a></li>
+                        </ul>
+                      </div>
+                      <div class="post-preview__meta"><a href="#">3 Comments</a></div>
+                      <div class="post-preview__meta"><span>by </span><a href="#">admin</a></div>
+                    </div>
+                    <div class="col-lg-8 post-preview__wrapper-content">
+                      <p>Esteem put uneasy set piqued son depend her others. Two dear held mrs feet view her old fine. Bore can led than how has rank. Discovery any extensive has commanded direction. Short at front which blind as. Ye as procuring unwilling principle by.</p>
+                      <div class="post-preview__wrapper-readmore"><a class="button button_small button_dark button_solid" href="blog-post.html">Read More</a></div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="section-blog__wrapper-post">
+                <article class="post post-preview">
+                  <div class="post-preview__media"><a href="blog-post.html"><img src="img/assets/sectionBlog/img-2.jpg" alt=""/></a></div>
+                  <div class="post-preview__header">
+                    <h2><a href="blog-post.html">Break Through Self Doubt And Fear</a></h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 post-preview__wrapper-meta">
+                      <div class="post-preview__meta post-preview__date"><a href="#">29 Jun 2019</a></div>
+                      <div class="post-preview__meta">
+                        <ul class="post-preview__categories">
+                          <li><a href="#">News, </a></li>
+                        </ul>
+                      </div>
+                      <div class="post-preview__meta"><a href="#">1 Comment</a></div>
+                      <div class="post-preview__meta"><span>by </span><a href="#">admin</a></div>
+                    </div>
+                    <div class="col-lg-8 post-preview__wrapper-content">
+                      <p>Weather adapted prepare oh is calling. These wrong of he which there smile to my front. He fruit oh enjoy it of whose table. Cultivated occasional old her unpleasing unpleasant. At as do be against pasture covered viewing started. Enjoyed me settled mr respect no spirits civilly.</p>
+                      <div class="post-preview__wrapper-readmore"><a class="button button_small button_dark button_solid" href="blog-post.html">Read More</a></div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="section-blog__wrapper-post">
+                <article class="post post-preview">
+                  <div class="post-preview__media"><a href="blog-post.html"><img src="img/assets/sectionBlog/img-3.jpg" alt=""/></a></div>
+                  <div class="post-preview__header">
+                    <h2><a href="blog-post.html">Motivation Letter For Work Abroad</a></h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 post-preview__wrapper-meta">
+                      <div class="post-preview__meta post-preview__date"><a href="#">27 May 2019</a></div>
+                      <div class="post-preview__meta">
+                        <ul class="post-preview__categories">
+                          <li><a href="#">Travel, </a></li>
+                          <li><a href="#">Lifestyle, </a></li>
+                        </ul>
+                      </div>
+                      <div class="post-preview__meta"><a href="#">No Comments</a></div>
+                      <div class="post-preview__meta"><span>by </span><a href="#">admin</a></div>
+                    </div>
+                    <div class="col-lg-8 post-preview__wrapper-content">
+                      <p>Age why the therefore education unfeeling for arranging. Above again money own scale maids ham least led. Returned settling produced strongly ecstatic use yourself way. Repulsive extremity enjoyment she perceived nor.</p>
+                      <div class="post-preview__wrapper-readmore"><a class="button button_small button_dark button_solid" href="blog-post.html">Read More</a></div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="section-blog__wrapper-post">
+                <article class="post post-preview">
+                  <div class="post-preview__media"><a href="blog-post.html"><img src="img/assets/sectionBlog/img-4.jpg" alt=""/></a></div>
+                  <div class="post-preview__header">
+                    <h2><a href="blog-post.html">5 Tips To Supercharge Your Motivation</a></h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 post-preview__wrapper-meta">
+                      <div class="post-preview__meta post-preview__date"><a href="#">24 May 2019</a></div>
+                      <div class="post-preview__meta">
+                        <ul class="post-preview__categories">
+                          <li><a href="#">Design, </a></li>
+                        </ul>
+                      </div>
+                      <div class="post-preview__meta"><a href="#">5 Comments</a></div>
+                      <div class="post-preview__meta"><span>by </span><a href="#">admin</a></div>
+                    </div>
+                    <div class="col-lg-8 post-preview__wrapper-content">
+                      <p>Married he hearing am it totally removal. Remove but suffer wanted his lively length. Moonlight two applauded conveying end direction old principle but. Are expenses distance weddings perceive strongly who age domestic.</p>
+                      <div class="post-preview__wrapper-readmore"><a class="button button_small button_dark button_solid" href="blog-post.html">Read More</a></div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <aside class="sidebar sidebar_no-margin-last-widget widget-area">
+                <section class="widget widget_search">
+                  <form class="search-form" action="blog.html" method="get">
+                    <div class="input-float input-search js-input-float">
+                      <input class="input-float__input input-search__input" type="search"/><span class="input-float__label">Search...</span>
+                      <button class="input-search__submit material-icons" type="submit">search</button>
+                    </div>
+                  </form>
+                </section>
+                <!-- .search -->
+                <section class="widget widget_categories">
+                  <h2 class="widgettitle">Categories</h2>
+                  <ul>
+                    <li class="cat-item"><a href="#">Interior Design</a><span>10</span></li>
+                    <li class="cat-item"><a href="#">Development</a><span>5</span></li>
+                    <li class="cat-item"><a href="#">Creative Life</a><span>8</span></li>
+                    <li class="cat-item"><a href="#">Travel</a><span>2</span></li>
+                    <li class="cat-item"><a href="#">Interviews</a><span>4</span></li>
+                  </ul>
+                </section>
+                <!-- .categories list -->
+                <section class="widget widget_recent_entries">
+                  <h2 class="widgettitle">Recent Posts</h2>
+                  <ul>
+                    <li><a href="#"><span>A Brief History Of Creation</span></a>
+                      <div class="post-date">07 Jun 2019</div>
+                    </li>
+                    <li><a href="#"><span>Peace On Earth A Wonderful Wish But</span></a>
+                      <div class="post-date">04 Jun 2019</div>
+                    </li>
+                    <li><a href="#"><span>Know Yourself Your Inner Power</span></a>
+                      <div class="post-date">29 May 2019</div>
+                    </li>
+                  </ul>
+                </section>
+                <!-- .recent entries-->
+                <section class="widget widget_tag_cloud">
+                  <h2 class="widgettitle">Tags</h2>
+                  <div class="tagcloud">
+                    <ul>
+                      <li><a class="tag-cloud-link" href="#">Premium</a></li>
+                      <li><a class="tag-cloud-link" href="#">Creative</a></li>
+                      <li><a class="tag-cloud-link" href="#">UX</a></li>
+                      <li><a class="tag-cloud-link" href="#">Interior</a></li>
+                      <li><a class="tag-cloud-link" href="#">Corporate</a></li>
+                      <li><a class="tag-cloud-link" href="#">Motion</a></li>
+                      <li><a class="tag-cloud-link" href="#">Photography</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!-- .tag cloud -->
+                <section class="widget widget_nav_menu">
+                  <h2 class="widgettitle">Quick Links</h2>
+                  <ul class="menu">
+                    <li class="menu-item-has-children"><a href="#">Homepages</a>
+                      <ul class="sub-menu">
+                        <li><a href="homepage-slider-1.html">Fullscreen Slider 001</a>
+                        </li>
+                        <li><a href="homepage-slider-2.html">Fullscreen Slider 002</a>
+                        </li>
+                        <li><a href="homepage-slider-3.html">Fullscreen Slider 003</a>
+                        </li>
+                        <li><a href="homepage-slider-4.html">Fullscreen Slider 004</a>
+                        </li>
+                        <li><a href="homepage-portfolio-grid-1.html">Portfolio Grid</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#">Portfolio</a>
+                      <ul class="sub-menu">
+                        <li><a href="project-1.html">Arrigo HTML Template</a>
+                        </li>
+                        <li><a href="project-2.html">Interior Design App</a>
+                        </li>
+                        <li><a href="project-3.html">The Crows Show</a>
+                        </li>
+                        <li><a href="project-4.html">Enchanted Pond Side</a>
+                        </li>
+                        <li><a href="project-5.html">Smart Home Sound</a>
+                        </li>
+                        <li><a href="project-6.html">Cassio Luxury Apartment</a>
+                        </li>
+                        <li><a href="project-7.html">The Underground</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="services.html">Services</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="contacts.html">Contacts</a>
+                    </li>
+                  </ul>
+                </section>
+                <!-- .nav menu-->
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- - section BLOG -->
+      <footer class="footer container-fluid">
+        <div class="footer__area-primary">
+          <div class="row">
+            <div class="col-lg-4 footer__col">
+              <section class="widget widget_ruben_logo"><a class="logo" href="homepage-slider-1.html">
+                  <div class="logo__text">Rubenz</div></a>
+                <p>We are a multidisciplinary digital agency based in New York</p>
+              </section>
+            </div>
+            <div class="col-lg-4 footer__col">
+              <section class="widget widget_ruben_social">
+                <ul class="social">
+                  <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                  <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                  <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                  <li class="social__item"><a class="fa fa-behance" href="#"></a></li>
+                </ul>
+              </section>
+            </div>
+            <div class="col-lg-4 footer__col">
+              <section class="widget widget_ruben_contacts">
+                <p>+1 504-558-6739<br>+1 918-806-0749</p>
+                <p><a href="mailto:hello@example.com">hello@rubenagency.com</a></p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="footer__area-secondary">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-12 footer__col">
+              <section class="widget widget_ruben_copyright"><small>© 2022 Rubenz – Creative Portfolio AJAX HTML5 Template. By <a href="https://artemsemkin.com" target="_blank">Artem Semkin.</a></small>
+              </section>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <canvas id="js-webgl"></canvas>
+    <!-- - PAGE MAIN-->
+    <!-- GOOGLE MAPS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMDrMzaeoz8AqpXNuaIpCR8OWjZFY6z0A"></script>
+    <!-- - GOOGLE MAPS -->
+    <!-- VENDOR SCRIPTS -->
+    <script src="js/vendor.js"></script>
+    <!-- - VENDOR SCRIPTS -->
+    <!-- COMPONENTS -->
+    <script src="js/components.js"></script>
+    <!-- - COMPONENTS -->
+  </body>
+</html>
